@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ translations.header }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        async function openPopup(imageUrl) {
+            var popup = window.open("", "_blank");
+            var popupContent = "<html><head><title>{{ translations.header }}</title><style>body {margin: 0; background-color: #f7f7f7;} img {max-width: 100%; max-height: 100%; display: block; margin: auto; border: 4px solid #eee; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); transition: transform 0.2s ease-in-out;} .fact-container {margin: 20px;}</style></head><body style='text-align: center;'><img class='popup-image' src='" + imageUrl + "' alt='{{ translations.image_alt }}'><div class='fact-container'><h2>{{ translations.tractor_fact }}</h2><p id='fact'></p></div></body></html>";
+            popup.document.write(popupContent);
+
+            try {
+                const response = await fetch('/random-tractor-fact');
+                const data = await response.json();
+                const factElement = popup.document.getElementById('fact');
+                factElement.innerHTML = data.fact;
+            } catch (error) {
+                console.error('Error fetching tractor facts:', error);
+            }
+        }
+
+        async function downloadImage(imageUrl) {
+            try {
+                const response = await fetch(imageUrl);
+                const blob = await response.blob();
+                const timestamp = new Date().getTime();
+                const filename = `image_${timestamp}.jpg`;
+                const url = window.URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.setAttribute('download', filename);
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                window.URL.revokeObjectURL(url);
+            } catch (error) {
+                console.error('Error downloading image:', error);
+            }
+        }
+
+        function changeLanguage(language) {
+            document.cookie = `language=${language}; path=/`;
+            location.reload();
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>{{ translations.header }}</h1>
+        <div class="language-selector">
+            <button onclick="changeLanguage('en')">English</button>
+            <button onclick="changeLanguage('lt')">Lietuvių</button>
+            <button onclick="changeLanguage('et')">Eesti</button>
+        </div>
+    </div>
+    <div class="button-container">
+        <form action="/" method="post">
+            <button class="get-image-btn" type="submit">{{ translations.get_image_btn }}</button>
+        </form>
+        {% if image_url %}
+            <button class="popup-btn" onclick="openPopup('{{ image_url }}')">{{ translations.open_popup_btn }}</button>
+            <button class="download-btn" onclick="downloadImage('{{ image_url }}')">{{ translations.download_btn }}</button>
+        {% endif %}
+    </div>
+    <div class="image-container">
+        {% if image_url %}
+            <img src="{{ image_url }}" alt="{{ translations.image_alt }}">
+        {% else %}
+            <p>{{ translations.image_error }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>

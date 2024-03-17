@@ -1,0 +1,33 @@
+{
+    "language": "et",
+    "header": "Traktorid",
+    "get_image_btn": "Uue pildi saamine",
+    "open_popup_btn": "Ava suur pilt ja fakt",
+    "download_btn": "Laadige pilt alla",
+    "image_alt": "Suur traktoripilt",
+    "image_error": "Pildi saamine ebaõnnestus",
+    "tractor_fact": "Juhuslik Traktorifakt:",
+    "facts": [
+        "Esimene bensiiniga töötav traktor leiutati John Froelichi poolt 1892. aastal.",
+        "Maailma suurim traktor, Big Bud 747, kaalub üle 100 000 naela.",
+        "Traktorid tutvustati põllumajanduses esmakordselt 19. sajandi alguses.",
+        "John Deere ettevõte asutati 1837. aastal ja on olnud juhtiv traktoritootja alates sellest ajast.",
+        "Kaasaegsetel traktoritel võivad olla GPS-süsteemid täpseks põllumajanduseks.",
+        "Sõna „traktor“ pärineb ladina keelest „trahere“, mis tähendab „tõmbamist“.",
+        "Massey-Harris ettevõte tootis esimese iseliikuvate kombaini 1938. aastal.",
+        "Esimene nelikveoga traktor tutvustati 1912. aastal Four Wheel Drive Auto Company poolt.",
+        "Caterpillar Inc., tuntud oma ehitustehnika poolest, toodab ka põllumajandustraktoreid.",
+        "Fordson Model F, mis tutvustati 1917. aastal, oli maailma esimene suurmahuline traktoritootmine.",
+        "Kaasaegse traktori keskmine hobujõud on umbes 150 hobujõudu.",
+        "Esimese diiselmootoriga traktori tutvustas Case 1930. aastal.",
+        "White Farm Equipment ettevõte tootis traktoreid Oliveri kaubamärgi all.",
+        "Kubota Corporation, mis asutati 1890. aastal, on oluline kompakttraktorite tootja.",
+        "Allis-Chalmers ettevõte tootis mudelit WC, mis oli 1940. aastate populaarseim traktor.",
+        "Traktorid, mis on varustatud esiladuritega, on sageli kasutusel materjalide käitlemiseks põllumajanduses.",
+        "International Harvester Company, hiljem tuntud kui Case IH, tootis traktorite Farmall seeriat.",
+        "Traktorid on paljudes maailma paikades asendanud loomajõudu põllumajanduses.",
+        "Ferguson TE20, mida tuntakse ka kui Little Grey Fergie, oli populaarne traktor pärast sõda.",
+        "18. sajandi põllumajandusrevolutsioon viis kaasa kaasaegsete põllumajandusmasinate arendamise.",
+        "Traktorivõistlused hõlmavad muudetud traktoreid, mis lohistavad rasket kelku."
+    ]
+}

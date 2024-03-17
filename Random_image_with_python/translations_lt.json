@@ -1,0 +1,33 @@
+{
+    "language": "lt",
+    "header": "Traktoriai",
+    "get_image_btn": "Gauti naują vaizdą",
+    "open_popup_btn": "Atidaryti didelį vaizdą ir faktą",
+    "download_btn": "Parsisiųsti vaizdą",
+    "image_alt": "Dideli traktoriai vaizdas",
+    "image_error": "Nepavyko gauti vaizdo",
+    "tractor_fact": "Atsitiktinis Traktoriaus Faktas:",
+    "facts": [
+        "Pirmasis benzino varomas traktorius buvo išrastas 1892 m. John Froelich.",
+        "Pasaulio didžiausias traktorius, Big Bud 747, sveria daugiau nei 100 000 svarų.",
+        "Traktoriai buvo pirmą kartą pristatyti žemės ūkiui XIX a. pradžioje.",
+        "Kompanija „John Deere“ buvo įkūrta 1837 m. ir yra pirmaujanti traktorių gamintoja nuo tada.",
+        "Modernūs traktoriai gali turėti GPS sistemas tiksliai žemės ūkio darbams.",
+        "Žodis „traktorius“ kilo iš lotynų kalbos žodžio „trahere“, reiškiančio „traukti“.",
+        "Kompanija „Massey-Harris“ 1938 m. pagamino pirmąjį savaiminį kombainą.",
+        "Pirmasis traktorius su keturiais varomais ratais buvo pristatytas 1912 m. Four Wheel Drive Auto Company.",
+        "„Caterpillar Inc.“, žinoma dėl statybinių mašinų, taip pat gamina žemės ūkio traktorius.",
+        "„Fordson Model F“, pristatytas 1917 m., buvo pirmas masiškai gamintas traktorius pasaulyje.",
+        "Vidutinis modernaus traktoriaus galingumas yra apie 150 AG.",
+        "Pirmasis dyzeliniais varomasis traktorius buvo pristatytas „Case“ 1930 m.",
+        "„White Farm Equipment“ kompanija pagamino traktorius po „Oliver“ prekės ženklu.",
+        "„Kubota Corporation“, įkurta 1890 m., yra pagrindinis kompaktinių traktorių gamintojas.",
+        "Kompanija „Allis-Chalmers“ pagamino modelį WC, populiariausią traktorių 1940-ųjų metais.",
+        "Traktoriai su priekiniais krovikliais dažnai naudojami medžiagų manipuliavimui ūkyje.",
+        "„International Harvester Company“, vėliau žinoma kaip „Case IH“, pagamino seriją traktorių „Farmall“.",
+        "Traktoriai daugelyje pasaulio vietų pakeitė gyvulių trauką žemės ūkyje.",
+        "„Ferguson TE20“, taip pat žinomas kaip „Little Grey Fergie“, buvo populiarus traktorius pokario laikotarpiu.",
+        "XVIII a. žemės ūkio revoliucija lėmė modernių žemės ūkio mašinų kūrimą.",
+        "Traktorių vilkimo varžybos apima modifikuotus traktorius, vilkiančius sunkų rodvėžį."
+    ]
+}
