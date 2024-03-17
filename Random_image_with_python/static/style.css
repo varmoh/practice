@@ -109,3 +109,17 @@ button {
         margin-bottom: 10px;
     }
 }
+.language-selector button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745; /* Green background color */
+    margin-right: 10px;
+}
+
+.language-selector button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
