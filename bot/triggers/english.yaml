@@ -1,0 +1,7 @@
+triggers:
+  hello:
+    - Hello! How can I help you??
+  thank_you:
+    - You're welcome. Feel free to ask anything.
+  nice_weather:
+    - Yes, it's indeed nice weather today.

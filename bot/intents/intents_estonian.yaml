@@ -1,0 +1,202 @@
+intents:
+- responses:
+  - Tere! Kuidas ma saan teid aidata?
+  trigger: tere
+- responses:
+  - Tere-tere!
+  trigger: tervitus
+- responses:
+  - Ahoi ka sulle
+  trigger: ahoi
+- responses:
+  - Pulmad
+  trigger: hoissa
+- responses:
+  - Tere! Kuidas ma saan teid aidata?
+  trigger: tere
+- responses:
+  - Tere-tere!
+  trigger: tervitus
+- responses:
+  - Tere! Kuidas ma saan teid aidata?
+  trigger: tere
+- responses:
+  - Tere-tere!
+  trigger: tervitus
+- responses:
+  - Tere! Kuidas ma saan teid aidata?
+  trigger: tere
+- responses:
+  - Tere-tere!
+  trigger: tervitus
+- responses:
+  - Mingi bänd oli
+  trigger: ummamumma
+- responses:
+  - Tere! Kuidas ma saan teid aidata?
+  trigger: tere
+- responses:
+  - Tere-tere!
+  trigger: tervitus
+- responses:
+  - Tere! Kuidas ma saan teid aidata?
+  trigger: tere
+- responses:
+  - Tere-tere!
+  trigger: tervitus
+- responses:
+  - loom
+  trigger: hiired
+- responses:
+  - roosa on
+  trigger: siga
+- responses:
+  - Tere! Kuidas ma saan teid aidata?
+  trigger: tere
+- responses:
+  - Tere-tere!
+  trigger: tervitus
+- responses:
+  - Tere! Kuidas ma saan teid aidata?
+  trigger: tere
+- responses:
+  - Tere-tere!
+  trigger: tervitus
+- responses:
+  - karvane
+  trigger: koer
+- responses:
+  - Tere! Kuidas ma saan teid aidata?
+  trigger: tere
+- responses:
+  - Tere-tere!
+  trigger: tervitus
+- responses:
+  - imeb verd
+  trigger: sääsk
+- responses:
+  - Tere! Kuidas ma saan teid aidata?
+  trigger: tere
+- responses:
+  - Tere-tere!
+  trigger: tervitus
+- responses:
+  - Tere! Kuidas ma saan teid aidata?
+  trigger: tere
+- responses:
+  - Tere-tere!
+  trigger: tervitus
+- responses:
+  - jaksamisse
+  trigger: vaim
+- responses:
+  - - response: Tere! Kuidas ma saan teid aidata?
+      trigger: tere
+    - response: Tere-tere!
+      trigger: tervitus
+  trigger: estonian
+- responses:
+  - - response: Hello! How can I help you?
+      trigger: hello
+    - response: Hi there!
+      trigger: hi
+  trigger: english
+- responses:
+  - - response: Labas! Kaip galiu jums padėti?
+      trigger: labas
+    - response: Sveiki atvykę!
+      trigger: sveiki
+  trigger: lithuanian
+- responses:
+  - - response: Tere! Kuidas ma saan teid aidata?
+      trigger: tere
+    - response: Tere-tere!
+      trigger: tervitus
+  trigger: estonian
+- responses:
+  - - response: Hello! How can I help you?
+      trigger: hello
+    - response: Hi there!
+      trigger: hi
+  trigger: english
+- responses:
+  - - response: Labas! Kaip galiu jums padėti?
+      trigger: labas
+    - response: Sveiki atvykę!
+      trigger: sveiki
+  trigger: lithuanian
+- responses:
+  - mutt
+  trigger: mulla
+- responses:
+  - norrakad
+  trigger: valhalla
+- responses:
+  - - response: Tere! Kuidas ma saan teid aidata?
+      trigger: tere
+    - response: Tere-tere!
+      trigger: tervitus
+  trigger: estonian
+- responses:
+  - - response: Hello! How can I help you?
+      trigger: hello
+    - response: Hi there!
+      trigger: hi
+  trigger: english
+- responses:
+  - - response: Labas! Kaip galiu jums padėti?
+      trigger: labas
+    - response: Sveiki atvykę!
+      trigger: sveiki
+  trigger: lithuanian
+- responses:
+  - skandinaavia
+  trigger: viiking
+- responses:
+  - öö
+  trigger: araabia
+- responses:
+  - plika
+  trigger: kessu
+- responses:
+  - - response: Tere! Kuidas ma saan teid aidata?
+      trigger: tere
+    - response: Tere-tere!
+      trigger: tervitus
+  trigger: estonian
+- responses:
+  - - response: Hello! How can I help you?
+      trigger: hello
+    - response: Hi there!
+      trigger: hi
+  trigger: english
+- responses:
+  - - response: Labas! Kaip galiu jums padėti?
+      trigger: labas
+    - response: Sveiki atvykę!
+      trigger: sveiki
+  trigger: lithuanian
+- responses:
+  - poiss
+  trigger: marakratt
+- responses:
+  - beebi
+  trigger: pampers
+- responses:
+  - - response: Tere! Kuidas ma saan teid aidata?
+      trigger: tere
+    - response: Tere-tere!
+      trigger: tervitus
+  trigger: estonian
+- responses:
+  - - response: Hello! How can I help you?
+      trigger: hello
+    - response: Hi there!
+      trigger: hi
+  trigger: english
+- responses:
+  - - response: Labas! Kaip galiu jums padėti?
+      trigger: labas
+    - response: Sveiki atvykę!
+      trigger: sveiki
+  trigger: lithuanian

@@ -1,0 +1,52 @@
+intents:
+- intent: hello
+  responses:
+  - Hello! How can I help you?
+- intent: hi
+  responses:
+  - Hi there!
+- intent: ssuupp
+  responses:
+  - Yooo!
+- intent: hello
+  responses:
+  - Hello! How can I help you?
+- intent: hi
+  responses:
+  - Hi there!
+- intent: lol
+  responses:
+  - laugh out loud
+- intent: estonian
+  responses:
+  - - response: Tere! Kuidas ma saan teid aidata?
+      trigger: tere
+    - response: Tere-tere!
+      trigger: tervitus
+- intent: english
+  responses:
+  - - response: Hello! How can I help you?
+      trigger: hello
+    - response: Hi there!
+      trigger: hi
+- intent: lithuanian
+  responses:
+  - - response: Labas! Kaip galiu jums padėti?
+      trigger: labas
+    - response: Sveiki atvykę!
+      trigger: sveiki
+- intent: viking
+  responses:
+  - england raiders
+- intent: rain
+  responses:
+  - wet
+- intent: mustard
+  responses:
+  - good
+- intent: melting
+  responses:
+  - snow
+- intent: falkirk
+  responses:
+  - place

@@ -1,0 +1,6 @@
+triggers:
+- _id: 65f77c73d0c6df7b899ed423
+  response: poiss
+  trigger: marakratt
+- response: beebi
+  trigger: pampers

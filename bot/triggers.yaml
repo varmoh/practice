@@ -1,0 +1,16 @@
+triggers:
+  estonian:
+    - trigger: tere
+      response: Tere! Kuidas ma saan teid aidata?
+    - trigger: tervitus
+      response: Tere-tere!
+  english:
+    - trigger: hello
+      response: Hello! How can I help you?
+    - trigger: hi
+      response: Hi there!
+  lithuanian:
+    - trigger: labas
+      response: Labas! Kaip galiu jums padėti?
+    - trigger: sveiki
+      response: Sveiki atvykę!

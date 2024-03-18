@@ -1,0 +1,10 @@
+triggers:
+- response: good
+  trigger: mustard
+- response: snow
+  trigger: melting
+- response: place
+  trigger: falkirk
+- response:
+  - Everything metal
+  trigger: what song do you like ?
